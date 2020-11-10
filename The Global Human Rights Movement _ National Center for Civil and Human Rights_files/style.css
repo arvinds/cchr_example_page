@@ -1,0 +1,1838 @@
+/*
+Theme Name:     Center For Civil and Human Rights
+Description:    Child theme for the Center For Civil and Human Rights
+Author:         SHERPA GLobal
+Theme URI: 		http://www.sherpaglobal.com
+Template:       jupiter
+Version:        2.0
+*/
+
+#rc-portal {
+	margin: 15px auto !important;
+}
+
+#rc-portal input.ui-button {
+    padding: 0 15px !important;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+input, textarea, select {
+	font-family: "Open Sans";
+}
+
+.mk-clients.bg-cover-false .client-logo {
+	background-size: contain;
+}
+
+.mk-list-styles ul li {
+	line-height: 2 !important;
+}
+
+.mk-blog-single .blog-single-title, .mk-blog-hero .content-holder .the-title {
+	font-weight: 400 !important;
+}
+
+.mk-list-styles ul li .mk-svg-icon {
+	top: 8px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-white * {
+	color: #fff;
+}
+
+.mk-footer-copyright {
+	float: none;
+	display: block;
+}
+
+.mk-header .header-logo > a {
+	margin-left: 0;
+}
+
+.sticky-style-slide.header-style-1.a-sticky .mk-header-holder {
+	top: -50px;
+}
+
+.mk-header:not(.a-sticky) .header-logo .mk-desktop-logo {
+	max-height: 56px;
+	margin-top: 14px;
+}
+
+.mk-header.a-sticky .header-logo .mk-desktop-logo {
+	max-height: 80%;
+	top: 28px;
+}
+
+.mk-header .mk-toolbar-holder {
+	text-align: right;
+}
+
+.mk-header:not(.a-sticky) .mk-toolbar-holder {
+	padding: 6px 0;
+}
+
+.mk-header-toolbar {
+	height: auto;
+	line-height: 1;
+	background: #ff4713;
+	background: -moz-linear-gradient(left,  #ff4713 20%, #921a1d 100%);
+	background: -webkit-linear-gradient(left,  #ff4713 20%,#921a1d 100%);
+	background: linear-gradient(to right,  #ff4713 20%,#921a1d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4713', endColorstr='#921a1d',GradientType=1 );
+}
+
+.mk-header-toolbar .mk-header-tagline {
+	font-size: 11px;
+}
+
+.mk-header-toolbar strong {
+	font-family: "Changa One";
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.toolbar-info {
+	display: inline-block;
+}
+
+.toolbar-info a {
+	color: #e6e6e6 !important;
+	display: inline-block;
+	line-height: 1;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 13px;
+}
+
+.toolbar-info a:hover {
+	color: #fff !important;
+	opacity: 1;
+}
+
+.toolbar-icons {
+	display: inline-block;
+	/*background: #80a1b6;*/
+	padding: 7px;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 2px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.toolbar-icons a {
+	display: block;
+	color: #e6e6e6 !important;
+	text-decoration: none;
+	line-height: 1;
+	text-align: center;
+}
+
+.toolbar-icons a:hover {
+	color: #fff !important;
+}
+
+.toolbar-icons a svg {
+	height: 24px;
+	width: 24px;
+	padding: 0;
+	color: #e6e6e6;
+}
+
+#mk-theme-container .header-style-1 .mk-header-padding-wrapper, 
+#mk-theme-container .header-style-2 .mk-header-padding-wrapper, 
+#mk-theme-container .header-style-3 .mk-header-padding-wrapper {
+	padding-top: 100px;
+}
+
+/* main menu */
+
+.menu-hover-style-4 .main-navigation-ul li.menu-item > a.menu-item-link:hover,
+.menu-hover-style-4 .main-navigation-ul li.menu-item:hover > a.menu-item-link,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-item > a.menu-item-link,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-ancestor > a.menu-item-link,
+.menu-hover-style-4.mk-vm-menuwrapper li a:hover, .menu-hover-style-4.mk-vm-menuwrapper li:hover > a,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-item > a,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-ancestor > a,
+.menu-hover-style-5 .main-navigation-ul > li.menu-item > a.menu-item-link:after {
+	background-color: #fff;
+	height: 4px;
+}
+
+.main-navigation-ul > li.menu-item > a.menu-item-link:hover,
+.main-navigation-ul > li.menu-item.current-menu-item > a.menu-item-link:hover {
+	color: #fff;
+}
+
+.call-for-tickets,
+.bottom-actions {
+	display: none;
+}
+
+/* main footer */
+
+#mk-footer .widgettitle {
+	font-family: "Changa One";
+	padding-top: 10px;
+	border-top: 5px solid rgb(184, 184, 184);
+	letter-spacing: normal;
+	margin-bottom: 5px;
+}
+
+#mk-footer ul.menu li a {
+	padding: 0;
+}
+
+#mk-footer ul.menu li:first-child {
+	/*display: none;*/
+}
+
+#mk-footer ul.menu .mk-svg-icon {
+	display: none;
+}
+
+.mk-footer-copyright {
+	padding: 20px 0 40px;
+}
+
+.mk-footer-copyright a {
+	color: #fff;
+}
+
+#text-2 .widgettitle {
+	font-size: 23px;
+}
+
+.widget-sub-navigation,
+.widget_nav_menu,
+.widget_product_categories,
+.woocommerce-MyAccount-navigation {
+	padding: 0;
+}
+
+#mk-footer .mk-social-network-shortcode a {
+    margin: 10px;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 1;
+    width: 46px;
+    height: 46px;
+}
+
+/* news */
+
+.news-full-with-image .news-the-title span, .news-half-with-image .news-the-title span, .news-fourth-with-image .news-the-title span {
+	font-family: "Changa One";
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+.posts-carousel .item-title {
+	font-weight: normal;
+}
+
+/* pages */
+
+#page-title {
+	position: relative;
+	padding: 0;
+}
+
+#page-title .column_container {
+	min-height: 375px;
+}
+
+#page-title .mk-button-container {
+	position: static;
+}
+
+#page-title .mk-custom-box {
+	position: absolute;
+	bottom: -30px;
+	left: 20px;
+	width: auto;
+	height: auto;
+}
+
+#page-title .mk-custom-box .box-holder {
+	/*max-width: 85%;*/
+	padding: 0 5% 0 0;
+	/*background: #fff;*/
+}
+
+#page-title .mk-custom-box .mk-title-box span {
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+#page-title .mk-custom-box .mk-title-box + .mk-title-box span {
+	/*padding-top: 0;*/
+}
+
+/* buttons */
+
+#all-exhibits {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px 20px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#all-exhibits .mk-button--icon svg {
+	height: 20px;
+}
+
+.mk-button {
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+.mk-button .mk-button--icon {
+	position: relative;
+	top: -2px;
+}
+
+.mk-button--size-x-large {
+	font-size: 20px
+}
+
+.mk-button--size-large {
+	font-size: 18px;
+}
+
+.mk-button--size-medium {
+	font-size: 15px;
+}
+
+.back-button .mk-button {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+a.button, 
+button.button, 
+input.button,
+.tribe-button,
+.ywbc-action.btn.btn-primary {
+    background-color: #d95117;
+    color: #fff;
+    font-family: "Changa One";
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+.ywbc-action.btn.btn-primary {
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.tribe-button,
+.ywbc-action.btn.btn-primary {
+	border: 0;
+}
+
+.tribe-button:hover,
+.ywbc-action.btn.btn-primary:hover {
+	background-color: #2b6984;
+}
+
+#gform_confirmation_message_22 a.button {
+	font-size: 20px;
+}
+
+button[disabled] {
+	opacity: 0.7;
+	cursor: not-allowed;
+	background-color: #ccc !important;
+}
+
+/*  yith barcode */
+
+.ywbc-order-status {
+	font-weight: bold;
+}
+.ywbc-search-row td:nth-child(3) {
+	text-align: center;
+}
+
+/* sidebars */
+
+#mk-sidebar .widget_nav_menu {
+	font-family: "Changa One";
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#mk-sidebar .widget_nav_menu ul {
+	border: none;
+}
+
+#mk-sidebar .widget_nav_menu ul li {
+	border: none;
+}
+
+#mk-sidebar .widget_nav_menu a {
+	font-weight: normal;
+	padding: 10px;
+	color: rgb(127, 116, 111);
+	font-size: 18px;
+}
+
+#mk-sidebar .widget_nav_menu ul li.current_page_item a {
+	background: none;
+	color: #f26531;
+	font-size: 21px;
+}
+
+#mk-sidebar .widget_nav_menu a:hover {
+	color: #1e728c !important;
+	font-size: 21px;
+}
+
+.mk-fancy-title.shortcode-heading {
+	color: rgb(127, 116, 111);
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 0;
+	line-height: 1;
+}
+
+.mk-fancy-title p {
+	color: inherit !important;
+}
+
+/* portfolio */
+
+.single-portfolio .page-section-content {
+	/*padding: 40px 20px 0px;*/
+}
+
+.mk-portfolio-item .the-title {
+	font-weight: normal;
+}
+
+/* gallery */
+
+.foo-item a {
+	margin: 0;
+}
+
+.owl-caption h4 {
+	color: #fff;
+	width: auto;
+	padding: 0 10px;
+	font-size: 13px;
+	font-family: "Open Sans";
+	text-transform: none;
+}
+
+.owl-caption {
+	position: static;
+	background: rgba(30, 114, 140, 0.4);
+	-webkit-transition: all 0.5s ease-out;
+  	transition: all 0.5s ease-out;
+  	color: #fff;
+  	opacity: 0;
+  	height: 0;
+}
+
+.foo-item:hover .owl-caption {
+	background: rgba(30, 114, 140, 1);
+	opacity: 1;
+	height: auto;
+}
+
+.mk-portfolio-item.cube-hover .the-title {
+	font-weight: normal;
+}
+
+/* homepage tabs */
+
+.whats-happening {
+	border: none;
+}
+
+.whats-happening .content-box-heading {
+	border: none;
+	background: none;
+	text-align: center;
+	font-size: 32px;
+	color: rgb(127, 116, 111);
+	font-family: "Changa One";
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.whats-happening .content-box-content {
+	border: 1px solid rgb(224, 224, 224)
+}
+
+.whats-happening .content-box-content > p:first-child {
+	display: none;
+}
+
+.whats-happening .mk-button {
+	font-size: 18px;
+	color: #80a1b6;
+}
+
+.whats-happening .mk-button .mk-button--icon svg {
+	height: 24px;
+	fill: #80a1b6;
+}
+
+.whats-happening .mk-button:hover .mk-button--icon svg {
+	fill: #ffffff;
+}
+
+/* tabs */
+
+.simple-style .mk-tabs-tabs {
+	border-bottom: none !important;
+}
+
+.simple-style .mk-tabs-tabs li {
+	margin-right: 20px;
+}
+
+.simple-style .mk-tabs-tabs li:last-child {
+	margin-right: 0;
+}
+
+.simple-style .mk-tabs-tabs li a {
+	font-family: "Changa One";
+	font-weight: normal;
+	font-size: 22px;
+	color: #80a1b6;
+	background: rgb(242, 242, 242);
+}
+
+.mk-tabs.simple-style .mk-tabs-tabs li.is-active a {
+	color: #1e728c;
+	border-bottom: 5px solid #1e728c !important;
+	border-color: #1e728c !important;
+}
+
+.mk-tabs .mk-tabs-panes .title-mobile {
+	font-family: "Changa One";
+	font-weight: normal;
+	font-size: 18px;
+	color: #80a1b6;
+	background: rgb(242, 242, 242);
+	border-bottom: 5px solid #1e728c !important;
+	border-color: #80a1b6 !important;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+/* portfolio/news carousel */
+
+.portfolio-carousel .item-content,
+.posts-carousel .detail-holder {
+	opacity: 1;
+	background: #fff;
+	border-radius: 0;
+	position: relative;
+    margin: -40px auto 0;
+    padding: 14px;
+    width: 240px;
+    text-align: center;
+    -webkit-transform: translate(0, 6px);
+    -ms-transform: translate(0, 6px);
+    transform: translate(0, 6px);
+    transition-delay: 0s;
+    -webkit-transition: all 0.3s ease-out;
+  	transition: all 0.3s ease-out;
+}
+
+.portfolio-carousel .item-title,
+.posts-carousel .item-title {
+	font-size: 30px !important;
+	color: #f26531 !important;
+	font-family: "Changa One";
+	font-weight: normal;
+	line-height: normal !important;
+	letter-spacing: normal !important;
+	text-align: left;
+	text-transform: capitalize !important;
+}
+
+.posts-carousel .item-title {
+	font-size: 16px;
+	padding: 0;
+}
+
+.portfolio-carousel .item-cats,
+.posts-carousel .item-cats {
+	font-size: 20px;
+	color: #ff4713 !important;
+	font-family: "Changa One";
+	font-weight: normal;
+	line-height: normal !important;
+	letter-spacing: normal !important;
+	text-align: left;
+}
+
+.portfolio-carousel .flex-direction-nav a {
+  position: absolute;
+  top: 50% !important;
+  margin-top: -27.5px;
+  width: 55px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  line-height: 60px;
+  z-index: 30;
+}
+
+.portfolio-carousel .flex-direction-nav a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.portfolio-carousel .flex-direction-nav .mk-svg-icon {
+  fill: #ffffff !important;
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.portfolio-carousel.style-classic .flex-direction-nav svg {
+	fill: #ffffff !important;
+}
+
+.portfolio-carousel .flex-direction-nav a.flex-prev {
+  left: 0;
+}
+.portfolio-carousel .flex-direction-nav a.flex-next {
+  right: 0;
+}
+
+.portfolio-carousel .item-lightbox {
+	display: none;
+}
+
+.portfolio-carousel .item-permalink {
+	right: auto;
+	left: 50%;
+	margin-left: -16px;
+}
+
+.portfolio-similar-meta .the-title {
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.home .portfolio-carousel .flex-direction-nav a,
+.page-id-8237 .portfolio-carousel .flex-direction-nav a {
+	top: 35% !important;
+}
+
+.posts-carousel .item-holder {
+	border: none;
+	-webkit-transition: all 0.3s ease-out;
+  	transition: all 0.3s ease-out;
+}
+
+.posts-carousel .item-holder:hover .detail-holder {
+ 	-webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition-delay: 0.2s;
+}
+
+/* quick contact */
+
+.mk-quick-contact-wrapper {
+	display: none;
+}
+
+.mk-quick-contact-wrapper .mk-quick-contact-title {
+	font-family: "Changa One";
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.mk-progress-button {
+	font-family: "Changa One";
+	font-weight: normal;
+	font-size: 18px;
+	letter-spacing: normal;
+}
+
+/* events */
+
+.tribe-bar-views-select {
+	min-width: 0 !important;
+}
+
+.tribe-events-event-cost .tribe-tickets-left {
+	display: none;
+}
+
+.tribe-tickets-remaining {
+	display: none !important;
+}
+
+#tribe-community-events .tribe-events-community-details td {
+	text-align: left;
+}
+.tribe-events-community-details table {
+	overflow: visible;
+}
+
+.tribe-events-meta-group .tribe-events-single-section-title,
+.tribe-mini-calendar-event .list-info h2 {
+	font-weight: normal !important;
+	background: rgba(255,71,19,0.95);
+	padding: 5px 10px;
+}
+
+.tribe-events-meta-group .tribe-events-single-section-title {
+	color: #fff;
+}
+
+.tribe-events-calendar {
+	overflow: visible;
+}
+
+.single-tribe_events #mk-page-introduce {
+	display: none;
+}
+
+.single-tribe_events .theme-page-wrapper.right-layout .theme-content {
+	width: 100%;
+}
+
+#tribe-events .row {
+    overflow: hidden;
+}
+
+#tribe-events .row .two-third {
+    float: left;
+    width: 60%;
+    padding-right: 25px;
+}
+
+#tribe-events .row .one-third {
+    float: left;
+    width: 40%;
+}
+
+#tribe-events .row .one-third:last-child {
+    padding-right: 0;
+}
+
+.single-tribe_events .tribe-events-event-image {
+    margin-bottom: 0;
+}
+
+#tribe-events-content .tribe-events-cost {
+    background: #80a1b6;
+    padding: 5px 10px;
+    font-family: "Changa One", sans-serif;
+    color: #fff;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+#tribe-events .tribe-event-date-start,
+#tribe-events .tribe-event-time,
+#tribe-events .tribe-events-schedule h2 {
+    font-size: 20px;
+}
+
+#tribe-events .tribe-events-schedule h2 {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.single-tribe_events #tribe-events-content form.cart {
+	margin-top: 20px;
+}
+
+#tribe-events .tribe-events-single-event-description {
+    margin-top: 25px;
+}
+
+#tribe-events .tribe-events-event-meta .tribe-events-meta-group {
+    float: none;
+    width: auto;
+    display: block;
+}
+
+#tribe-events .tribe-events-venue-map {
+    float: none;
+    margin: 15px;
+    width: auto;
+    display: block;
+}
+
+.single-tribe_events .tribe-events-single-event-title {
+    color: #000;
+    padding-top: 25px;
+}
+
+#tribe-events .tribe-events-event-image img {
+    object-fit: cover;
+    max-height: 350px;
+}
+
+#tribe-events .tribes-header {
+    background: #fafafa;
+    border: 1px solid #eee;
+}
+
+#tribe-events .before-event {
+    /*background: #f1f1f1;*/
+}
+
+#tribe-events h2.tribe-events-tickets-title {
+    margin-top: 0;
+}
+
+.tribe-events-style-full .woocommerce .quantity input[type="button"] {
+	line-height: 13px;
+    background: #252525;
+    width: 38px;
+    border-radius: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.single_variation_wrap .single_variation {
+	float: none !important;
+}
+
+.woocommerce #content .quantity .minus, 
+.woocommerce #content .quantity .plus, 
+.woocommerce .quantity .minus, 
+.woocommerce .quantity .plus, 
+.woocommerce-page #content .quantity .minus, 
+.woocommerce-page #content .quantity .plus, 
+.woocommerce-page .quantity .minus, 
+.woocommerce-page .quantity .plus {
+	display: block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    vertical-align: text-top;
+    overflow: visible;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 13px;
+    background: #252525;
+    width: 38px;
+    height: 21px;
+    outline: 0;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.post-type-archive-tribe_events #mk-page-introduce {
+    display: none;
+}
+
+.introEvents .list-date {
+	width: auto;
+}
+
+.backgroundOrange {
+	margin-left:20px;
+	background-color:rgba(255,71,19,0.95);
+	display:inline-block;
+	padding: 10px !important;
+	-webkit-box-shadow: .8rem 0px 0px rgba(255,71,19,0.9), -.8rem 0px 0px rgba(255,71,19,0.95);
+	box-shadow: .8rem 0px 0px rgba(255,71,19,0.9), -.8rem 0px 0px rgba(255,71,19,0.95);
+}
+
+.backgroundBlue {
+	background-color:rgba(30,114,140,0.95);
+	display:inline-block;
+	padding: 15px 20px !important;
+	margin: 0;
+}
+
+.introText {
+	margin-top: 20px;
+	line-height: 1;
+}
+
+.introText p,
+.introText p strong {
+	color: #fff;
+	font-size: 22px;
+}
+
+.introBtn .mk-button {
+	/*border-width: 3px;*/
+	padding: 10px !important;
+	font-size: 17px !important;
+}
+
+.introBtn .mk-button .mk-button--icon {
+	position: relative;
+	top: -2px;
+}
+
+#mk-button-8 .mk-button {
+	border-width: 2px;
+	border-color: transparent;
+	border-style: solid;
+}
+
+#fancy-title-13 p {
+	color: #fff;
+}
+
+.introEvents .tribe-events-duration {
+	display: none;
+}
+
+.introEvents .list-info {
+	margin: 0 0 20px 0;
+}
+
+.introEvents .list-info p {
+	color: #fff;
+	font-size: 18px;
+	margin: 0;
+	line-height: 1.5;
+}
+
+.introEvents .list-info p br {
+	display: none;
+}
+
+.introEvents .tribe-events-title {
+	font-size: 20px !important;
+	letter-spacing: 1px;
+}
+
+.introEvents .tribe-events-title a {
+	color: #fff;
+	font-weight: normal;
+}
+
+.introEvents .tribe-events-title a:hover {
+	color: #000;
+}
+
+.introEvents  .list-date .list-dayname {
+	background: none;
+	color: #fff;
+}
+
+.introEvents .list-date {
+	background: rgba(30,114,140,0.95);
+	padding: 10px 15px;
+	margin: 0px 2% 10px 0;
+}
+
+.introEvents .list-date .list-dayname,
+.introEvents .list-date .list-daynumber {
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 0;
+	font-family: "Changa One", sans-serif;
+	font-weight: normal;
+}
+
+.introEvents .tribe-events-widget-link a {
+	display: block;
+	margin: 0 auto;
+	max-width: 140px;
+	padding: 10px 20px;
+	border: 3px solid #f26531;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Changa One", sans-serif;
+	display: none;
+}
+
+.introEvents .tribe-events-widget-link a:hover {
+	background: #f26531;
+}
+
+.introEvents .tribe-mini-calendar-event {
+	margin: 0;
+	border: 0;
+}
+
+/* testimonials */
+
+.bottom-testimonials.mk-testimonial .mk-testimonial-content {
+	padding: 0 10% 20px 10%;
+}
+
+.bottom-testimonials.mk-testimonial .mk-testimonial-content p {
+	font-size: 30px !important;
+	line-height: 1.5 !important;
+	font-family: 'Changa One';
+	font-weight: normal;
+}
+
+/* forms */
+
+.gform_wrapper .gsection .gfield_label, .gform_wrapper h2.gsection_title, .gform_wrapper h3.gform_title {
+	font-weight: normal;
+}
+
+.gform_wrapper .top_label .gfield_label:empty {
+	display: none;
+}
+
+.gform_wrapper .field_description_below .gfield_description {
+	padding-top: 0;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input,
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox],
+.gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+	margin-top: 1px;
+}
+
+.gform_wrapper .gf_progressbar_wrapper h3.gf_progressbar_title {
+	font-size: 19px;
+}
+
+.gform_wrapper .gfield_html.gfield_no_follows_desc {
+	padding-bottom: 0;
+	margin-top: 0;
+}
+
+.gfsection {
+	display: none;
+}
+
+.gform_fieldset.collapsible {
+	display: none;
+}
+
+.gform_fieldset fieldset {
+	border: 0;
+}
+
+/* donation form */
+
+#gform_1 .gsection_title {
+	cursor: pointer;
+}
+
+table td, table th {
+	text-align: left;
+}
+
+/* products */
+
+.mk-product.style-default .social-share ul li a,
+.social-share ul li a {
+    width: 30px;
+    height: 30px;
+    line-height: 23px;
+}
+
+.woocommerce #content input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button,
+a.shop-flat-btn,
+.woocommerce #content table.cart input,
+.woocommerce table.cart input,
+.woocommerce-page #content table.cart input,
+.woocommerce-page table.cart input,
+.button {
+	font-family: "Changa One";
+	font-weight: 400;
+}
+
+.woocommerce #content .quantity input.qty, .woocommerce .quantity input.qty,
+.woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity
+input.qty, .woocommerce #content .quantity .minus, .woocommerce #content
+.quantity .plus, .woocommerce .quantity .minus, .woocommerce .quantity .plus,
+.woocommerce-page #content .quantity .minus, .woocommerce-page #content
+.quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page
+.quantity .plus { font-weight: 400; }
+
+.woocommerce #content .quantity input.qty, .woocommerce .quantity input.qty, .woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity input.qty {
+	font-size: 19px;
+}
+
+.woocommerce #content .quantity .minus, .woocommerce #content .quantity .plus, .woocommerce .quantity .minus, .woocommerce .quantity .plus, .woocommerce-page #content .quantity .minus, .woocommerce-page #content .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page .quantity .plus {
+	font-size: 21px;
+	line-height: 1;
+}
+
+button[name="tickets_process"] {
+	font-size: 18px;
+}
+
+#coupon_code.input-text {
+	font-size: 16px;
+}
+
+#ship-to-different-address, .woocommerce-billing-fields h3 {
+	font-size: 24px !important;
+}
+
+.single_add_to_cart_button {
+	padding: 12px 15px!important;
+	font-size: 18px !important;
+}
+
+.mk-product-loop.compact-layout .products .mk-love-holder,
+.related.compact-layout .products .mk-love-holder,
+.upsells.compact-layout .products .mk-love-holder {
+	top: 5px;
+}
+
+.mk-product-loop.compact-layout .products .product-title,
+.related.compact-layout .products .product-title,
+.upsells.compact-layout .products .product-title {
+	font-size: 18px !important;
+}
+
+.wc-bookings-booking-form .form-field input[type=email],
+.wc-bookings-booking-form .form-field input[type=number],
+.wc-bookings-booking-form .form-field input[type=password],
+.wc-bookings-booking-form .form-field input[type=tel],
+.wc-bookings-booking-form .form-field input[type=text],
+.wc-bookings-booking-form .form-field input[type=url],
+.tribe-ticket-quantity {
+    font-size: 13px;
+    color: #767676;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #e3e3e3;
+    -webkit-transition: all 0.3s ease-out;
+  	transition: all 0.3s ease-out;
+}
+
+.tribe-ticket-quantity {
+	width: auto;
+	font-size: 16px;
+}
+
+.tribe-ticket .minus,
+.tribe-ticket .plus {
+	font-family: "Changa One";
+	font-weight: normal;
+	color: #fff;
+	background: #f26531;
+	border: 0;
+	padding: 10px 15px;
+	font-size: 22px;
+	-webkit-transition: all 0.3s ease-out;
+  	transition: all 0.3s ease-out;
+  	display: none;
+}
+
+.tribe-ticket .minus:hover,
+.tribe-ticket .plus:hover {
+	background: #1e728c;
+	color: #fff;
+}
+
+.tribe-events-style-full .tribe-events-tickets-title {
+	font-family: "Changa One";
+}
+
+#tribe-events .button {
+	background: #f26531;
+}
+
+#tribe-events .button:hover {
+	background: #1e728c;
+}
+
+.wc-bookings-booking-form .form-field input[type=email]:focus,
+.wc-bookings-booking-form .form-field input[type=number]:focus,
+.wc-bookings-booking-form .form-field input[type=password]:focus,
+.wc-bookings-booking-form .form-field input[type=tel]:focus,
+.wc-bookings-booking-form .form-field input[type=text]:focus,
+.wc-bookings-booking-form .form-field input[type=url]:focus {
+    background-color: #fff;
+}
+
+.wc-bookings-booking-form .form-field {
+	font-size: 14px;
+}
+
+.mk-product.style-default .title {
+	margin-bottom: 0;
+	font-size: 26px !important;
+	font-weight: normal;
+}
+
+/* barcode */
+
+#barcode-scan-form select {
+	display: inline-block;
+}
+
+#barcode-scan-form input[type="submit"] {
+	font-family: "Changa One";
+	font-weight: normal;
+	color: #fff;
+	background: #f26531;
+	border: 0;
+	padding: 10px;
+	font-size: 18px;
+	-webkit-transition: all 0.3s ease-out;
+  	transition: all 0.3s ease-out;
+}
+
+#barcode-scan-form input[type="submit"]:hover {
+	background: #1e728c;
+}
+
+
+/* exhibits */
+
+.mk-portfolio-item .the-title {
+	font-size: 28px !important;
+	line-height: 1 !important;
+}
+
+.mk-portfolio-item .portfolio-categories a {
+	font-size: 18px;
+}
+
+/* gallery */
+
+.page-id-1287 .foogallery-default a {
+	vertical-align: middle;
+	position: relative;
+}
+
+.page-id-1287 .foogallery-default a img  {
+	max-height: 180px;
+	max-width: 200px;
+}
+
+.page-id-1287 .foogallery-default {
+	/*display: flex;*/
+	align-items: center;
+	justify-content: center;
+}
+
+.acf-form-fields ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.acf-form-fields ul li {
+	margin: 0;
+}
+
+table.group_table .apple-pay-button-wrapper {
+	display: none;
+}
+
+/* misc */
+
+.mobile-only {
+	display: none !important;
+}
+
+/* large desktop devices */
+
+@media only screen and (min-width: 1100px) {
+
+	.mk-header:not(.a-sticky) .mk-header-inner {
+		z-index: auto;
+	}
+
+	.mk-header:not(.a-sticky) .header-logo > a {
+		z-index: 10000;
+		margin-left: 10px;
+		top: -20px;
+	}
+
+}
+
+/* medium desktop devices */
+
+@media only screen and (max-width: 1100px) {
+
+	.introBtn {
+		display: block;
+		float: none;
+		margin: 0 0 10px 0 !important;
+	}
+
+	.introBtn .mk-button {
+		display: block !important;
+	}
+}
+
+@media only screen and (max-width: 968px) {
+
+	.toolbar-info a {
+		font-size: 13px;
+	}
+
+	.mk-header-toolbar strong {
+		font-family: "Changa One";
+		font-weight: normal;
+		font-size: 14px;
+	}
+
+	.toolbar-icons {
+		margin-left: 0px;
+	}
+}
+/* small devices */
+
+@media only screen and (max-width: 768px) {
+
+	.mobile-only {
+		display: block !important;
+	}
+
+	#mk-header-toolbar,
+	.mk-toolbar-resposnive-icon {
+		display: none !important;
+	}
+
+	.home .mk-tabs-panes {
+		padding: 0;
+		margin-left: -35px;
+		margin-right: -35px;
+	}
+
+	.home .mk-tabs-pane-content {
+		padding: 0;
+	}
+
+	/*#theme-page .theme-page-wrapper .theme-content {
+		padding-right: 0;
+		padding-left: 0;
+	}*/
+
+	.flex-direction-nav a {
+		display: none;
+	}
+
+	#text-3 .mk-social-network-shortcode ul {
+		text-align: center;
+	}
+
+	#text-3 .mk-button {
+		display: block !important;
+		margin-bottom: 15px;
+	}
+
+	.toolbar-info {
+		display: block;
+		margin: 0 auto 10px 0;
+		text-align: left;
+	}
+
+	.toolbar-info .toolbar-icons {
+		margin-left: 0;
+	}
+
+	#page-title {
+		min-height: 0;
+	}
+
+	#page-title .mk-custom-box .box-holder {
+		padding: 0 10% 0 0;
+	}
+
+
+	#page-title .column_container {
+		min-height: 90px;
+		position: static;
+	}
+
+	#page-title > .mk-grid {
+		position: relative;
+	}
+
+	.theme-page-wrapper #mk-sidebar .sidebar-wrapper {
+		padding: 0 !important;
+	}
+
+	.mk-responsive-nav li a {
+		font-family: "Changa One";
+		font-weight: normal;
+		font-size: 15px;
+	}
+
+	#page-title .mk-custom-box {
+		position: static;
+	}
+
+	#all-exhibits {
+		right: 0;
+		left: auto;
+		z-index: 10;
+	}
+
+	#mk-footer .mk-padding-wrapper > div:nth-child(-n+8) {
+		display: none;
+	}
+
+	#mk-footer .mk-padding-wrapper .mk-button-container {
+		display: block;
+	    width: 50%;
+	    margin: 10px auto 10px auto;
+	}
+
+	#mk-footer .mk-padding-wrapper .mk-button-container a {
+		padding: 20px 5px !important;
+		font-weight: normal;
+		font-size: 16px !important;
+	}
+
+	#text-2 .widgettitle {
+		border-top: none;
+	}
+
+	.bottom-testimonials.mk-testimonial .mk-testimonial-content p {
+		font-size: 21px !important;
+	}
+
+	.mk-nav-responsive-link {
+		left: 0px;
+		right: auto;
+		color: #fff;
+	}
+
+	.mk-nav-responsive-link .mk-css-icon-close div, 
+	.mk-nav-responsive-link .mk-css-icon-menu div {
+		background-color: #fff;
+	}
+
+	.header-style-1.header-align-left .header-logo a {
+		margin-left: 40px;
+	}
+
+	.mk-responsive-nav li.call-for-tickets {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+
+	.call-for-tickets {
+		position: absolute;
+		top: 26px;
+		right: 15px;
+		display: block;
+		text-align: right;
+		color: #fff;
+		z-index: 400;
+	}
+
+	.mk-header.a-sticky .call-for-tickets {
+		top: 8px;
+	}
+
+	.call-for-tickets span {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+		background: #80a1b6;
+		padding: 8px;
+		border-radius: 50%;
+		line-height: 1;
+	}
+
+	.call-for-tickets span a {
+		display: block;
+	}
+
+	.call-for-tickets span img {
+		width: 26px;
+		height: 26px;
+	}
+
+	.call-for-tickets span svg {
+		color: #fff;
+		width: 26px;
+		height: 26px;
+	}
+
+	.call-for-tickets > a {
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: normal;
+		font-family: "Changa One";
+		font-size: 15px;
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 1;
+		text-align: left;
+	}
+
+	.bottom-actions {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background: #1e728c;
+		color: #fff;
+	}
+
+	.bottom-actions a {
+		color: #fff;
+	}
+
+	.bottom-actions p:empty {
+		display: none !important;
+	}
+
+	.bottom-actions h3 {
+		font-size: 12px;
+		font-weight: normal;
+		display: inline-block !important;
+		vertical-align: middle;
+		text-align: left;
+		/*max-width: 65px;*/
+	}
+
+	.bottom-actions > div {
+		display: inline-block !important;
+		width: 33%;
+		margin-left: -4px;
+	}
+
+	.bottom-actions > div > div {
+		width: auto !important;
+		margin-right: 4px !important;
+	}
+
+	.bottom-actions .mk-svg-icon {
+		height: 26px !important;
+		width: 26px !important;
+	}
+
+	#mk-footer .footer-wrapper {
+		padding-bottom: 0;
+	}
+
+	.mk-footer-copyright {
+		padding: 0 10px 20px 10px !important;
+	}
+
+	#mk-boxed-layout {
+		padding-bottom: 84px;
+	}
+
+	#mk-footer .widget {
+		margin-bottom: 0;
+	}
+
+    #tribe-events .row {
+        overflow: hidden;
+    }
+
+    #tribe-events .row .two-third {
+        float: none;
+        width: auto;
+        display: block;
+        padding-right: 0px;
+    }
+
+    #tribe-events .row .one-third {
+        float: none;
+        width: auto;
+        display: block;
+    }
+
+    #tribe-events-content .tribe-events-cost {
+        display: inline-block;
+    }
+
+    .single-tribe_events .tribe-events-schedule {
+        border: 0;
+        background: none;
+    }
+
+    .single-tribe_events .tribe-events-single-event-title {
+        padding-left: 12px;
+    }
+
+    .woocommerce .cart-collaterals .cross-sells, 
+    .woocommerce-page .cart-collaterals .cross-sells {
+    	width: auto;
+    	float: none;
+    }
+
+    .introBox {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.introText {
+		text-align: center !important;
+	}
+
+	.introEvents .list-date {
+		margin-top: 0;
+	}
+
+	.introEvents .list-info {
+		width: 70%;
+	}
+
+	.introEvents .list-info p {
+		font-size: 14px;
+	}
+
+	.introEvents .tribe-events-title {
+		font-size: 18px !important;
+	}
+
+	.introEvents .list-date .list-dayname,
+	.introEvents .list-date .list-daynumber {
+		font-size: 18px;
+	}
+
+	#background-layer--2 {
+		background-position: center bottom !important;
+	}
+
+	.introBtn .mk-button {
+		display: block;
+		margin-bottom: 10px;
+		padding: 14px !important;
+	}
+
+	.introBtn {
+		float: none;
+	}
+
+	.introEvents .tribe-events-widget-link {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.mk-quick-contact-wrapper {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.bottom-actions h3 {
+		max-width: 50px;
+	}
+
+	.bottom-actions .mk-svg-icon {
+		width: 28px !important;
+		height: 28px !important;
+	}
+
+	#mk-footer .mk-padding-wrapper .mk-button-container a {
+		padding: 20px 10px !important;
+		font-weight: normal;
+		font-size: 16px !important;
+	}
+
+	.mk-product-loop.compact-layout .products .item, 
+	.related.compact-layout .products .item, 
+	.upsells.compact-layout .products .item {
+		float: none;
+		width: auto;
+	}
+
+	.woocommerce-page table.cart td {
+		display: block;
+	}
+
+	.woocommerce-page table.cart thead {
+		display: none;
+	}
+
+	.master-holder h1 {
+		font-size: 30px;
+	}
+
+	#padding-2 {
+		height: 40px;
+	}
+
+	.header-logo img {
+		max-width: 140px !important;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+	#mk-footer .mk-padding-wrapper .mk-button-container a {
+		padding: 20px 8px !important;
+		font-weight: normal;
+		font-size: 14px !important;
+	}
+
+	#fancy-title-9 span {
+		display: block;
+	}
+
+	#page-section-2 .vc_column-inner,
+	#page-section-2 .column_container {
+		padding: 0;
+	}
+
+	.introText {
+		text-align: center !important;
+	}
+}
+
+/* checkout overrides */
+
+.form-row.woocommerce-mailchimp-opt-in {
+	float: none;
+	clear: both;
+}
+
+.woocommerce form .form-row {
+	/*width: 100% !important;*/
+}
+.woocommerce-checkout #payment div.payment_box input.input-text, .woocommerce-checkout #payment div.payment_box textarea {
+	width: 100% !important;
+	padding: 8px;
+}
+.woocommerce #payment .form-row select, .woocommerce-page #payment .form-row select {
+	width: 100%;
+	height: 30px;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+	float: left;
+	width: 100%;
+}
+.custom-checkout h3 {
+	/*background-color: #165f1c; */
+	width: 45%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 50px;
+	color: #FFF;
+	float: right;
+}
+
+#order_review_heading {
+	font-size: 24px !important;
+	float: right;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+	/*padding: .6180469716em;
+	background-color: #f2f2f2;
+	color: #43454b;
+	outline: 0;
+	border: 0;
+	-webkit-appearance: none;
+	border-radius: 2px;
+	box-sizing: border-box;
+	font-weight: 400;
+	border:solid 2px #e4e4e4;*/
+}
+
+#wc_checkout_add_ons {
+	width: 45%;
+	float: right;
+	text-align: center;
+}
+
+.woocommerce-account #mk-sidebar {
+	display: none;
+}
+
+.woocommerce-account .theme-content {
+	width: auto;
+	float: none;
+}
+
+@media screen and (min-width: 980px) {
+	.woocommerce-shipping-fields h3, .woocommerce-billing-fields h3 {width:100%;}
+	.woocommerce .col2-set, .woocommerce-page .col2-set {
+		width: 45%;
+		float: left;
+	}
+	.woocommerce-checkout-review-order{
+		width: 45%;
+		float: right;
+	}
+}
+@media screen and (max-width: 979px) {
+	.custom-checkout h3 {
+		width: 100%;
+	}
+
+	#order_review_heading {	
+		float: none;
+	}
+
+	#customer_details {
+		margin-bottom: 0;
+	}
+}
+
+/* acf overrides */
+
+.acf-field input[type="text"], 
+.acf-field input[type="password"], 
+.acf-field input[type="number"], 
+.acf-field input[type="search"], 
+.acf-field input[type="email"], 
+.acf-field input[type="url"], 
+.acf-field textarea, 
+.acf-field select {
+	font-size: 13px;
+    color: #767676;
+    padding: 10px 12px;
+    background-color: #fdfdfd;
+    border: 1px solid #e3e3e3;
+    line-height: 1em;
+}
+
+/* IE/Edge */
+
+.IE .mk-page-section .background-layer, 
+.Edge .mk-page-section .background-layer, 
+.IE .mk-page-section .mk-color-layer, 
+.Edge .mk-page-section .mk-color-layer {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* hide AdWords remarketing iframe */
+iframe[name="google_conversion_frame"] {
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: block;
+}
+
+.no-margins {
+	margin: 0;
+}
+
+.screen-reader-text {
+	display: none;
+}
